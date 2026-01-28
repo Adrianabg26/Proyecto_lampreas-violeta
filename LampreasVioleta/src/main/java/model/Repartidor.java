@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Nueva entidad "Repartidor" añadida al sistema.
+ * Entidad "Repartidor".
  * Relaciones:
  * - 1:N con Pedidos (Un repartidor entrega muchos pedidos, pero cada pedido es entregado por un único repartidor)
  */
