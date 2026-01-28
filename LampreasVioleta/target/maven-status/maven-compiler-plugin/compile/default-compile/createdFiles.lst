@@ -1,0 +1,17 @@
+dao\DetallePedidoDAO.class
+db\Db.class
+app\DemoRelaciones.class
+model\Pedido.class
+model\Producto.class
+dao\DetalleClienteDAO.class
+model\DetallePedido.class
+services\ClienteDetalle.class
+dao\PedidoDAO.class
+services\JsonIO.class
+app\LampreasVioletaApp.class
+model\Cliente.class
+dao\ClienteDAO.class
+app\ClientesView.class
+dao\ProductoDAO.class
+model\AppData.class
+model\DetalleCliente.class
