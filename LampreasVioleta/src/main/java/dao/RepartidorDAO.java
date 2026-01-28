@@ -1,26 +1,26 @@
-package dao;
 // Paquete donde vive esta clase. Normalmente 'dao' agrupa los Data Access Objects,
 // clases dedicadas exclusivamente a hablar con la base de datos.
+package dao;
 
+// Clase que gestiona la obtención de conexiones JDBC.
 import db.Db;
-// Clase que gestiona la obtención de conexiones JDBC (probablemente un método estático getConnection()).
 
-import model.Repartidor;
 // Modelo/entidad Repartidor. Representa una fila de la tabla 'repartidor'.
+import model.Repartidor;
 
+// Imports necesarios para el uso del API JDBC de Java.
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-// Imports necesarios para el uso del API JDBC de Java.
 
+// Usamos listas dinámicas para devolver varios repartidores cuando hacemos un SELECT *.
 import java.util.ArrayList;
 import java.util.List;
-// Usamos listas dinámicas para devolver varios repartidores cuando hacemos un SELECT *.
 
+// Clase DAO que contiene la lógica de acceso a datos para la entidad Repartidor.
+// Todo lo relacionado con INSERT, SELECT, UPDATE y DELETE de repartidores.
 public class RepartidorDAO {
-    // Clase DAO que contiene la lógica de acceso a datos para la entidad Repartidor.
-    // Todo lo relacionado con INSERT, SELECT, UPDATE y DELETE de repartidores.
 
     // ----------------------------------------------------------
     // SENTENCIAS SQL PREPARADAS COMO CONSTANTES
@@ -55,7 +55,6 @@ public class RepartidorDAO {
     // ----------------------------------------------------------
     // MÉTODO: INSERTAR UN CLIENTE
     // ----------------------------------------------------------
-
     public void insert(Repartidor r) throws SQLException {
         // Método público que inserta un repartidor en la base de datos.
         // Recibe un objeto Repartidor y lanza SQLException si algo sale mal.

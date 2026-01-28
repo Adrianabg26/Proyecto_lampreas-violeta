@@ -92,7 +92,7 @@ public class ComercialDAO {
     // ----------------------------------------------------------
 
     public Comercial findById(int id) throws SQLException {
-        // Devuelve el Comercial cuyo id coincida con el parámetro.
+        // Devuelve el comercial cuyo id coincida con el parámetro.
         // Si no existe, devuelve null.
 
         try (Connection con = Db.getConnection();
