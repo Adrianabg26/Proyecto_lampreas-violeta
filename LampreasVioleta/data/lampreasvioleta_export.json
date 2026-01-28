@@ -1,0 +1,46 @@
+{
+  "clientes" : [ {
+    "id" : 1,
+    "nombre" : "Roberto Rodríguez",
+    "email" : "robert@rodri.com",
+    "detalle" : null,
+    "pedidos" : [ ]
+  }, {
+    "id" : 2,
+    "nombre" : "Andrea Valenti",
+    "email" : "andrea@valenti.com",
+    "detalle" : null,
+    "pedidos" : [ ]
+  }, {
+    "id" : 3,
+    "nombre" : "Ana",
+    "email" : "ana@gmail.com",
+    "detalle" : null,
+    "pedidos" : [ ]
+  }, {
+    "id" : 4,
+    "nombre" : "Rosa",
+    "email" : "Rosa@gmail.com",
+    "detalle" : null,
+    "pedidos" : [ ]
+  } ],
+  "detallesCliente" : [ ],
+  "productos" : [ ],
+  "pedidos" : [ ],
+  "detallesPedido" : [ ],
+  "comerciales" : [ {
+    "id" : 5,
+    "nombre" : "Juan",
+    "zonaVenta" : "Cadiz",
+    "comision" : 2.5,
+    "clientesAsignados" : [ ],
+    "pedidos" : [ ]
+  } ],
+  "repartidores" : [ {
+    "id" : 1,
+    "nombre" : "Lucas Blanco",
+    "vehiculo" : "Moto",
+    "email" : "Lucasblanco@gmail.com",
+    "pedidos" : [ ]
+  } ]
+}
