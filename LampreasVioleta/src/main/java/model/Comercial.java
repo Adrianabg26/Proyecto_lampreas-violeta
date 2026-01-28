@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Nueva entidad "Comercial" añadida al sistema.
+ * Entidad "Comercial".
  * Relaciones:
  * - 1:N con Cliente (un comercial gestiona varios clientes).
  * - 1:N con Pedidos (un comercial tiene una lista de pedidos asociados)
